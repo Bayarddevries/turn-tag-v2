@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Circle-Chase/sw.js', { scope: '/Circle-Chase/' })})}
